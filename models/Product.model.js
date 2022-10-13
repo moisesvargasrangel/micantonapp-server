@@ -7,20 +7,20 @@ const productSchema = new Schema(
       minLength: 3,
       trim: true
     },
-
-    price: Number,
-
+    description: {
+        type: String,
+        minLength: 3,
+        trim: true
+    },
+    //Material === Ubicación
     material: {
         type: String,
         minLength: 3,
         trim: true
     },
     
-    description: {
-        type: String,
-        minLength: 3,
-        trim: true
-    },
+    price: Number,
+    
 
     image:{
       type: String,

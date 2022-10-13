@@ -74,25 +74,3 @@ router.delete('/gallery/:productId', (req, res, next) => {
 module.exports = router;
 
 
-
-
-
-//http:localhost:5005/products
-// router.get("/", (req, res) => {
-//   res.json("Products");
-// });
-
-
-// //http:localhost:5005/products
-// //Create Product
-// router.post("/", (req, res) => {
-//   const {body} = req;
-
-//   console.log(body);
-//   Product.create(body)
-//   .then(result => {
-//     res.json(result);
-//   })
-//   .catch(console.log)
-
-// })
